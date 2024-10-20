@@ -72,6 +72,7 @@ color: #f1f1f1;
 font-size: 40px;
 font-weight: bold;
 transition: 0.3s;
+
 }
 
 /* Navigation Bar */
@@ -146,6 +147,7 @@ cursor: pointer;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
+    z-index: -100;
    
 }
 
@@ -154,6 +156,7 @@ cursor: pointer;
     height: auto;
     transition: transform 0.3s ease;
     width: 220%;
+    z-index: -100;
 }
 
 /* Scale up on hover */
